@@ -2,6 +2,17 @@
 
 本文件记录对外可见的变化。格式遵循 Keep a Changelog，版本号遵循语义化版本。
 
+## [Unreleased]
+
+### Added
+
+- GitHub Pages 自动发布：推送到 `main` 触发 `.github/workflows/pages.yml`，构建 `dist/` 并部署，站点地址 <https://gty1233.github.io/agent-builder-ui/>。
+
+### Changed
+
+- 仓库转为公开（免费账号不支持私有仓库发布 Pages）。仓库内仅含演示数据。
+- 设置页的密钥占位值改为更明确的 `demo-key-placeholder`，避免被密钥扫描器误报。
+
 ## [0.1.0] - 2026-10-08
 
 ### Added

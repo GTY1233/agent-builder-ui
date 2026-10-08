@@ -8,6 +8,9 @@
 
 ## 快速开始
 
+> **在线预览**：<https://gty1233.github.io/agent-builder-ui/> —— 每次推送到 `main` 都会由
+> `.github/workflows/pages.yml` 自动构建并发布。该站点是公开可访问的。
+
 ```bash
 npm install
 npm run dev        # 开发：http://localhost:5173
@@ -82,6 +85,9 @@ SHOT_THEME=dark node tools/shot.mjs http://localhost:4173/ ./shots-dark 1440 100
 > 不要用 `chrome --screenshot` 直接截这个工程：那种方式会在动画未跑完时拍照，页面看起来是空的（进场元素还停在 `opacity:0`）。
 
 ## 已知边界
+
+- **GitHub Pages 站点是公开的**。本仓库为公开仓库（免费账号不支持私有仓库发布 Pages），
+  仓库内只有演示数据、没有真实业务信息；带客户语境的内容请勿提交到这里。
 
 - **配色是按屏摄目测还原的，不是取色得来的**。参考素材是手机翻拍的屏幕照片，有明显偏色与反光，采样出的色值不可信（例如亮绿按钮采样到 `rgb(103,171,52)`，实际应更亮）。要精确对齐品牌色，需要拿到设计稿或清晰截图。
 - **照片里读不清的小字是按语义补写的**，不是逐字复刻。

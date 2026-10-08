@@ -221,7 +221,12 @@ export function Settings() {
                 </div>
                 <div className="field full">
                   <label htmlFor="m-key">密钥</label>
-                  <input id="m-key" className="input mono" type="password" defaultValue="sk-demo-000" />
+                  <input
+                    id="m-key"
+                    className="input mono"
+                    type="password"
+                    defaultValue="demo-key-placeholder"
+                  />
                 </div>
               </div>
               <div className="statusline" style={{ marginTop: 18, borderLeftColor: 'var(--violet)' }}>
