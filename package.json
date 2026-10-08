@@ -1,0 +1,27 @@
+{
+  "name": "agent-builder-ui",
+  "private": true,
+  "version": "0.1.0",
+  "description": "智能体工作台交互模版 —— 任务、流程、治理与成效的统一样板（复刻自 Inception42 Catalyst 的形态，品牌与内容中性化）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "motion": "^14.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4",
+    "zustand": "^5.0.15"
+  }
+}
